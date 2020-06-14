@@ -7,7 +7,7 @@ import "./layout.css"
 const Layout = ({ children }) => {
   return (
     <>
-      <Header siteTitle="Joaquim Aníbal Rocha Neto" />
+      <Header siteTitle="<Joaquim Aníbal Rocha Neto />" />
       <div
         style={{
           margin: `0 auto`,
@@ -17,10 +17,24 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
 
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <footer
+          style={{
+            background: "#eee",
+            textAlign: "center",
+            color: "#aaa",
+            padding: 10,
+          }}
+        >
+          © {new Date().getFullYear()}, Construído com
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a
+            href="https://www.gatsbyjs.org"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            Gatsby
+          </a>
         </footer>
       </div>
     </>
