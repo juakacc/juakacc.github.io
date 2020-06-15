@@ -5,6 +5,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import info from "../info"
+import ButtonScroll from "../components/ButtonScroll"
 
 const IndexPage = () => (
   <Layout>
@@ -80,6 +81,8 @@ const IndexPage = () => (
         </div>
       ))}
     </section>
+
+    <ButtonScroll />
   </Layout>
 )
 
