@@ -1,0 +1,10 @@
+body {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-image: url("./background.jpg");
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}

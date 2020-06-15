@@ -1,0 +1,34 @@
+.container {
+  height: 100px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+}
+
+.container p,
+h4 {
+  color: #000;
+  margin: auto;
+}
+
+.container .value {
+  display: none;
+}
+
+.container:hover {
+  background-color: #36cc1f;
+  transition: background-color 500ms linear;
+}
+
+.container:hover p {
+  color: #fff;
+}
+
+.container:hover .value {
+  display: block;
+}
+
+.container:hover .title {
+  display: none;
+}

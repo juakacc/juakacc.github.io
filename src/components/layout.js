@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 
 import Header from "./Header"
 import "./layout.css"
+import "./styles.css"
 
 const Layout = ({ children }) => {
   return (
@@ -15,7 +16,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main className="site-container">{children}</main>
 
         <footer
           style={{
