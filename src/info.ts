@@ -8,7 +8,15 @@ const info = {
     email: "juakacc@gmail.com",
     phone: "(83) 99184-7766",
   },
-  skills: ["Reactjs", "React Native", "Nodejs", "Mysql", "Angular", "Linux"],
+  skills: [
+    "Reactjs",
+    "React Native",
+    "Nodejs",
+    "Mysql",
+    "Angular",
+    "Linux",
+    "Git",
+  ],
   moreSkills: ["PHP", "Python", "Java", "Sprint-boot"],
   experiences: [
     {

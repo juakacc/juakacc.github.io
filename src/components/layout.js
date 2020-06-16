@@ -17,27 +17,27 @@ const Layout = ({ children }) => {
         }}
       >
         <main className="site-container">{children}</main>
-
-        <footer
+      </div>
+      <footer
+        style={{
+          background: "#36cc1f",
+          padding: 10,
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        © {new Date().getFullYear()}, Construído com
+        {` `}
+        <a
+          href="https://www.gatsbyjs.org"
           style={{
-            background: "#eee",
-            textAlign: "center",
-            color: "#aaa",
-            padding: 10,
+            textDecoration: "none",
+            color: "#fff",
           }}
         >
-          © {new Date().getFullYear()}, Construído com
-          {` `}
-          <a
-            href="https://www.gatsbyjs.org"
-            style={{
-              textDecoration: "none",
-            }}
-          >
-            Gatsby
-          </a>
-        </footer>
-      </div>
+          Gatsby
+        </a>
+      </footer>
     </>
   )
 }

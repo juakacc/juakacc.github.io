@@ -16,7 +16,6 @@ import "./styles.css"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      // background: `rebeccapurple`,
       background: "#36cc1f",
       marginBottom: `1.45rem`,
       display: "flex",
