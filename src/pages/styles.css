@@ -16,6 +16,7 @@ div.profile h3 {
   display: flex;
   margin-bottom: 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 section.skills h3 {

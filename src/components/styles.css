@@ -8,3 +8,18 @@ body {
   background-size: cover;
   color: white;
 }
+
+@media (max-width: 1050px) {
+  .site-container {
+    margin: 0 auto;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1050px) {
+  .site-container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 1.0875rem 1.45rem;
+  }
+}
