@@ -9,7 +9,7 @@ type LanguageItemParams = {
 
 const LanguageItem = ({ language, fluency }: LanguageItemParams) => {
   return (
-    <div className="container">
+    <div className="container-language">
       <h4 className="title">{language}</h4>
       <p className="value">{fluency}</p>
     </div>

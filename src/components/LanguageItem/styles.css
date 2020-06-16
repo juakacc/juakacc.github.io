@@ -1,4 +1,4 @@
-.container {
+.container-language {
   height: 100px;
   width: 200px;
   background-color: #fff;
@@ -8,30 +8,30 @@
   padding: 10px;
 }
 
-.container p,
-h4 {
+.container-language p,
+.container-language h4 {
   color: #000;
   margin: auto;
   text-align: center;
 }
 
-.container .value {
+.container-language .value {
   display: none;
 }
 
-.container:hover {
+.container-language:hover {
   background-color: #36cc1f;
   transition: background-color 500ms linear;
 }
 
-.container:hover p {
+.container-language:hover p {
   color: #fff;
 }
 
-.container:hover .value {
+.container-language:hover .value {
   display: block;
 }
 
-.container:hover .title {
+.container-language:hover .title {
   display: none;
 }

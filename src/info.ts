@@ -49,8 +49,8 @@ const info = {
       language: "Português",
       fluency: "Língua Nativa",
     },
-    { id: 2, language: "Inglês", fluency: "Intermediária" },
-    { id: 3, language: "Espanhol", fluency: "Intermediária" },
+    { id: 2, language: "Inglês", fluency: "Intermediário" },
+    { id: 3, language: "Espanhol", fluency: "Intermediário" },
   ],
 }
 
