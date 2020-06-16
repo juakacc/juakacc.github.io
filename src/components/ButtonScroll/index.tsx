@@ -30,7 +30,7 @@ const ButtonScroll = () => {
   return (
     <div className="button-scroll">
       {isVisible && (
-        <FaArrowAltCircleUp onClick={scrollToTop} size={40} color="#36cc1f" />
+        <FaArrowAltCircleUp onClick={scrollToTop} size={40} color="#fff" />
       )}
     </div>
   )

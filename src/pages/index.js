@@ -19,15 +19,19 @@ import ButtonScroll from "../components/ButtonScroll"
 import LanguageItem from "../components/LanguageItem"
 import Skill from "../components/Skill"
 import Experience from "../components/Experience"
+
 import "./styles.css"
+import Links from "../components/Links"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h2>Oi pessoal, sejam bem-vindos ao meu site!</h2>
 
-    <div>
-      <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
+    <div className="profile">
+      <div
+        style={{ maxWidth: `200px`, marginBottom: `1.45rem`, margin: "auto" }}
+      >
         <Image />
       </div>
       <h3>{info.description}</h3>
@@ -52,7 +56,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section>
+    <section className="skills">
       <h2>
         <FaTools /> Skills
       </h2>
@@ -117,6 +121,7 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <Links />
     <ButtonScroll />
   </Layout>
 )

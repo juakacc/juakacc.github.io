@@ -8,8 +8,3 @@ body {
   background-size: cover;
   color: white;
 }
-
-.flex-container {
-  display: flex;
-  margin: 0;
-}

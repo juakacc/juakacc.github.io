@@ -3,3 +3,21 @@
   justify-content: space-around;
   margin-bottom: 10px;
 }
+
+div.profile {
+  text-align: center;
+}
+
+div.profile h3 {
+  margin-top: 10px;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+section.skills h3 {
+  margin: 10px;
+}

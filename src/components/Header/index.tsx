@@ -50,7 +50,7 @@ const Header = ({ siteTitle }) => (
         marginRight: "10px",
       }}
     >
-      <a href="https://github.com/juakacc" rel="Teste">
+      <a href="https://github.com/juakacc">
         <FaGithub color="#fff" size={25} />
       </a>
       <a href="mailto:juakacc@gmail.com">
